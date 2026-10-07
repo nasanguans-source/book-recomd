@@ -1,0 +1,228 @@
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #111111;
+            color: #f5f5f5;
+            font-family: 'Noto Sans Thai', sans-serif;
+        }
+
+        /* NAVBAR */
+
+        .navbar {
+            padding: 25px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        .nav-link {
+            color: #aaa !important;
+            margin-left: 25px;
+            transition: .3s;
+        }
+
+        .nav-link:hover {
+            color: white !important;
+        }
+
+        /* HERO */
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 0;
+        }
+
+        .hero-label {
+            font-family: 'DM Sans', sans-serif;
+            letter-spacing: 5px;
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+
+        .hero-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(70px, 10vw, 150px);
+    line-height: .8;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ffffff, #f2c4ff, #9defff, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+        
+
+        .hero-text {
+            max-width: 500px;
+            color: #bcbcbc;
+            font-size: 18px;
+            line-height: 1.9;
+            margin-top: 45px;
+            white-space: nowrap;
+        }
+
+        .book-wrapper {
+            text-align: center;
+            position: relative;
+        }
+
+        .book-wrapper img {
+            width: 180%;
+            max-width: 600px;
+            box-shadow: 30px 30px 0 #272727;
+            transition: .5s;
+        }
+
+        .book-wrapper img:hover {
+            transform: translate(-8px, -8px);
+            box-shadow: 40px 40px 0 #272727;
+        }
+
+        .book-number {
+    position: absolute;
+    right: 0;
+    top: -60px;
+    font-family: 'DM Sans';
+    font-size: 50px;
+    color: #333;
+    z-index: 2;
+}
+
+        /* INTRO */
+
+        .intro {
+            padding: 150px 0;
+            border-top: 1px solid #333;
+        }
+
+        .section-label {
+            color: #777;
+            font-family: 'DM Sans';
+            letter-spacing: 3px;
+            font-size: 13px;
+        }
+
+        .intro-title {
+            font-size: clamp(40px, 6vw, 75px);
+            line-height: 1.2;
+            margin: 25px 0;
+        }
+
+        .intro-text {
+            color: #aaa;
+            line-height: 2;
+            font-size: 17px;
+        }
+
+        /* WHY READ */
+
+        .why {
+            padding: 100px 0;
+            background: #f1f1f1;
+            color: #111;
+        }
+
+        .why-title {
+            font-size: clamp(50px, 8vw, 100px);
+            font-weight: 700;
+            font-family: 'DM Sans';
+            line-height: .9;
+        }
+
+        .feature-card {
+            border-top: 2px solid #111;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+
+        .feature-number {
+            font-family: 'DM Sans';
+            font-size: 18px;
+        }
+
+        .feature-title {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 15px 0;
+        }
+
+        .feature-text {
+            color: #555;
+            line-height: 1.9;
+        }
+
+        /* QUOTE */
+
+        .quote-section {
+            padding: 180px 0;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: clamp(35px, 5vw, 65px);
+            line-height: 1.2;
+            font-weight: 500;
+        }
+
+        .quote span {
+    background: linear-gradient(90deg, #f4b7ff, #8eeeff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+        /* FOOTER */
+
+        footer {
+            border-top: 1px solid #333;
+            padding: 50px 0;
+            color: #777;
+        }
+
+        .footer-logo {
+            font-family: 'DM Sans';
+            color: white;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 768px) {
+
+            .hero {
+                padding: 60px 0;
+            }
+
+            .hero-title {
+                font-size: 70px;
+            }
+
+            .book-wrapper {
+                margin-top: 80px;
+            }
+
+            .book-wrapper img {
+                width: 70%;
+            }
+
+            .intro {
+                padding: 100px 0;
+            }
+
+            .why {
+                padding: 80px 0;
+            }
+
+        }
+
